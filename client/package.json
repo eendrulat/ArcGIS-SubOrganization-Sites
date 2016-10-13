@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "author": "Joshua Tanner",
+  "description": "client app to implement ArcGIS Online sub-organization concept",
+  "version": "0.1.0",
+  "homepage": "/agol/",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.6.1"
+  },
+  "dependencies": {
+    "jquery": "3.1.1",
+    "react": "15.3.2",
+    "react-bootstrap": "0.30.5",
+    "react-document-title": "2.0.2",
+    "react-dom": "15.3.2",
+    "react-ga": "2.1.2",
+    "react-router": "2.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

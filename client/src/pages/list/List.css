@@ -1,0 +1,10 @@
+.list-container {
+  text-align: center;
+}
+
+.list-agency-list {
+  list-style: none;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}

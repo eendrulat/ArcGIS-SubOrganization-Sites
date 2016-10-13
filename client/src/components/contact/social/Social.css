@@ -1,0 +1,27 @@
+.social-list {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  text-align: left;
+}
+
+@media only screen
+  and (max-width: 992px) {
+  .social-list {
+    text-align: center;
+  }
+}
+
+.social-list li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-list li:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.social-list .fa {
+  font-size: 22px
+}

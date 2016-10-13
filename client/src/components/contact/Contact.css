@@ -1,0 +1,24 @@
+.contact-container {
+  text-align: left;
+}
+
+@media only screen
+  and (max-width: 992px) {
+  .contact-container {
+    text-align: center;
+  }
+}
+
+.contact-logo img {
+  height: 80px;
+}
+
+.contact-contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-agency {
+  font-weight: bold;
+}

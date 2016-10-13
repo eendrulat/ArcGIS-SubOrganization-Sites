@@ -1,0 +1,16 @@
+.item-thumbnail {
+  height: 325px;
+}
+.item-thumbnail img {
+  margin-top: 15px;
+}
+.item-title {
+  font-size: 20px;
+  margin-top: 3px;
+}
+.item-snippet {
+  font-size: 12px;
+}
+.item-actions {
+  text-align: center;
+}
