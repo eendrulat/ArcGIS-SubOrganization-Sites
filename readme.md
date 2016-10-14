@@ -1,6 +1,6 @@
 # ArcGIS Online Sub-Organization Home Pages
 
-## Create By:  State of Oregon [Geospatial Enterprise Office](http://geo.maps.arcgis.com/home/index.html)
+## Created By:  State of Oregon [Geospatial Enterprise Office](http://geo.maps.arcgis.com/home/index.html)
 
 ### About
 
