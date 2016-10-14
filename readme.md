@@ -4,9 +4,9 @@
 
 ### About
 
-Oregon has a single ArcGIS Online account with many different agencies creating mapping
-applications with an immeasurable benefit to the public.  Sub-Organizational home
-pages give every agency the ability to present their efforts in an attractive site.  The
+Oregon has a single ArcGIS Online account with many different agencies, each creating mapping
+applications with an immeasurable benefit to the public.  Sub-Organization home
+pages give every agency the ability to present their efforts in an attractive landing page.  The
 site is fully responsive and looks great on mobile and tablet devices.  You can view
 a list of our currently configured agency home pages through the links on our
 [ArcGIS Online page](http://geo.maps.arcgis.com/), or view them directly
@@ -21,7 +21,7 @@ Landing page for the Oregon Department of Forestry
 ### Getting Started
 
 This project has a fully operating [client](./client) and [server](./server) example
-for you to get started.  The main requirement building the application and running
+for you to get started.  The main requirement for building the application and running
 the server is NodeJS:
 
 + [NodeJS](https://nodejs.org/en/) and NPM
@@ -58,11 +58,13 @@ cd client
 npm install
 ```
 
-This application was build with help from a ReactJS build tool that has everything
-configured to jump into a project without messing with your own build configuration.  
-Read more about the tool, [create-react-app](https://github.com/facebookincubator/create-react-app).  
+This application was built with help from a ReactJS build tool that has everything
+configured to jump into a project without messing with your own build configuration. 
+
+Read more about the tool, [create-react-app](https://github.com/facebookincubator/create-react-app). 
+
 All of the commands available to this tool are available in this directory.  I recommend reading more
-if you are stick with custom development.
+if you are stuck.
 
 + *Terminal 2* Launch Client App
 
@@ -86,12 +88,12 @@ components as you feel necessary.
 ### Deploying to Production
 
 You're production build will vary depending on what environment you are deploying to.  Our app
-is deployed on IIS, so there are are couple of things needed to make it work on IIS.  Below are the
+is deployed on IIS, so there are are couple of things needed to make it work.  Below are the
 steps we take to deploy our app to production. **Note: You will need to develop your own server
 backend for delivering the configs.  It can be simple, like the express app, but you probably
 want to create a way for your agencies to edit their config files by logging in.  You can also modify
 this project to use static files rather than a service.  Our initial creation of this project used static
-files that were actually stored in ArcGIS Online.**
+files that were stored in ArcGIS Online.**
 
 + Update the *serverConfig* object `./client/config.js` to point to your hosted service
 + Update the *homepage* property in `./client/package.json` to the relative path of your production project
@@ -117,7 +119,7 @@ See [LICENSE](./LICENSE) for detailed information.
 ### Acknowledgements
 
 This projects builds on the incredible work being done at [Esri](http://www.esri.com/)
-with ArcGIS Online, and many thanks to the projects that helped make this project
+with ArcGIS Online, and many thanks to the many projects that helped make this app
 possible:
 
 + [ArcGIS Online](http://www.esri.com/)
@@ -127,4 +129,4 @@ possible:
 
 And I cannot forget to acknowledge the supportive and creative staff here at the
 [Oregon Geospatial Enterprise Office](http://geo.maps.arcgis.com/home/index.html).
-*Thank You Team*!!
+**Thank You Team!!**
